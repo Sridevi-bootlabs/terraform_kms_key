@@ -1,0 +1,12 @@
+deletion_window_in_days = 10
+oauth_config_description = "oauth config"
+name = "iam-role-for-grant12"
+a_name = "my-grant"
+operations = ["Encrypt", "Decrypt", "GenerateDataKey"]
+primary_description = "Multi-Region primary key"
+primary_deletion_window_in_days = 30
+multi_region = true
+replica_description = "Multi-Region replica key"
+replica_deletion_window_in_days = 7
+is_enabled = true
+kms_deletion_window_in_days = 8
